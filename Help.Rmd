@@ -1,0 +1,29 @@
+---
+title: "Health Risk Prediction"
+author: "BS"
+date: "26 December 2015"
+output: html_document
+---
+
+This is a sample Shiny Applicatio to showcase following:
+
+1. Some form of input (widget: textbox, radio button, checkbox, ...)
+1. Some operation on the ui input in sever.R
+1. Some reactive output displayed as a result of server calculations
+1. You must also include enough documentation so that a novice user could use your application.
+1. The documentation should be at the Shiny website itself. Do not post to an external link.
+
+The application is asking users to enter following details:
+
+1. Weight in Pounds
+1. Height in Inches
+1. Any existing conditions impacting health
+1. Date of birth
+
+The application is using Weight & Height to compute BMI as first basis for health risk. BMI above 24 is known for overweight and over 30 is obesity. So, we are giving a risk factor of 0.4 and 0.6 for these two cases.
+
+Further, it is adding 0.1 for each of the existing pre-conditions.
+
+Finaly, it is adding 0.1 for age between 50-65, 0.15 for age between 65-75 and 0.2 for age >75.
+
+**NOTE**: The prediction logic is completely made up one and has no scientfic significance. It is being used to demonstrate capability of Shiny applications.
