@@ -20,7 +20,7 @@ The application is asking users to enter following details:
 1. Any existing conditions impacting health
 1. Date of birth
 
-The application is using Weight & Height to compute BMI as first basis for health risk. BMI above 24 is known for overweight and over 30 is obesity. So, we are giving a risk factor of 0.4 and 0.6 for these two cases.
+The application is using Weight & Height to compute BMI as first basis for health risk. BMI above 25 is known for overweight and over 30 is obesity. So, we are giving a risk factor of 0.4 and 0.6 for these two cases.
 
 Further, it is adding 0.1 for each of the existing pre-conditions.
 
